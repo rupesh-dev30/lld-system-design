@@ -1,0 +1,13 @@
+#ifndef CONCRETE_PRODUCT_A_H
+#define CONCRETE_PRODUCT_A_H
+
+#include "Product.h"
+
+class ConcreteProductA : public Product {
+public:
+    void use() override {
+        cout << "Using Concrete Product A" << endl;
+    }
+};
+
+#endif

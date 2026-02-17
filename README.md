@@ -34,6 +34,10 @@ Compile:
 
 ```bash
 javac $(find . -name "*.java")
+
+and
+
+javac java/com/rupesh/factory/*.java
 ```
 
 Run:
